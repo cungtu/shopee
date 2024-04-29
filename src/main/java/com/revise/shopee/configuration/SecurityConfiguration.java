@@ -39,9 +39,6 @@ public class SecurityConfiguration   {
                 .build();
         return new InMemoryUserDetailsManager(userDetails);
     }
-
-
-
 }
 
 
